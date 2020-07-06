@@ -12,7 +12,7 @@
 
 :pencil: &nbsp;你可以通过提交PR来添加更多问题和练习 :) 你可以在[此处](CONTRIBUTING.md)了解更多信息
 
-:books: &nbsp;要了解有关DevOps和SRE的更多信息, 请检查[devops-resources](https://github.com/bregman-arie/devops-resources) 储存库中的资源
+:books: &nbsp;要了解有关DevOps和SRE的更多信息, 请查看[devops-resources](https://github.com/bregman-arie/devops-resources) 储存库中的资源
 
 ****
 
@@ -26,7 +26,7 @@
     <td align="center"><a href="#jenkins"><img src="images/jenkins.png" width="85px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="#jenkins-beginner">初级 :baby:</a></sub><br><sub><a href="#jenkins-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#git"><img src="images/git.png" width="80px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br /><sub><a href="#git-beginner">初级 :baby:</a></sub><br><sub><a href="#git-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#ansible"><img src="images/ansible.png" width="75px;" height="75px;" alt="ansible"/><br /><b>Ansible</b></a></td>
-    <td align="center"><a href="#Network"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a><br /><sub><a href="#network-beginner">初级 :baby:</a></sub><br><sub><a href="#network-advanced">高级 :star:</a></sub></td>
+    <td align="center"><a href="#Network"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>网络</b></a><br /><sub><a href="#network-beginner">初级 :baby:</a></sub><br><sub><a href="#network-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#linux"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="#linux-beginner">初级 :baby:</a></sub><br><sub><a href="#linux-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#terraform"><img src="images/terraform.png" width="70px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a><br /><sub><a href="#terraform-beginner">初级 :baby:</a></sub><br><sub><a href="#terraform-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#docker"><img src="images/docker.png" width="70px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a><br /><sub><a href="#docker-beginner">初级 :baby:</a></sub><br><sub><a href="#docker-advanced">高级 :star:</a></sub></td>
@@ -35,7 +35,7 @@
     <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a><br /><sub><a href="#coding-beginner">初级 :baby:</a></sub><br><sub><a href="#coding-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#python"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a><br /><sub><a href="#python-beginner">初级 :baby:</a></sub><br><sub><a href="#python-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#go"><img src="images/Go.png" width="75px;" height="75px;" alt="go"/><br /><b>Go</b></a><br /><sub><a href="#go-beginner">初级 :baby:</a></sub><br><sub></td>
-    <td align="center"><a href="#shell-scripting"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a><br /><sub><a href="#shell-scripting-beginner">初级 :baby:</a></sub><br><sub><a href="#shell-scripting-advanced">高级 :star:</a></sub></td>
+    <td align="center"><a href="#shell-scripting"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell脚本编程</b></a><br /><sub><a href="#shell-scripting-beginner">初级 :baby:</a></sub><br><sub><a href="#shell-scripting-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
     <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="#prometheus-beginner">初级 :baby:</a></sub><br><sub><a href="#prometheus-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#mongo"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a><br /><sub><a href="#mongo-beginner">初级 :baby:</a></sub><br><sub></td>
@@ -47,32 +47,32 @@
     <td align="center"><a href="#azure"><img src="images/azure.png" width="75px;" height="75px;" alt="azure"/><br /><b>Azure</b></a><br /><sub><a href="#azure-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#gcp"><img src="images/googlecloud.png" width="80px;" height="75px;" alt="Google Cloud Platform"/><br /><b>Google Cloud Platform</b></a><br /><sub><a href="#gcp-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#openstack"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a><br /><sub><a href="#openstack-beginner">初级 :baby:</a></sub><br><sub><a href="#openstack-advanced">高级 :star:</a></sub></td>
-    <td align="center"><a href="#security"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a><br /><sub><a href="#security-beginner">初级 :baby:</a></sub><br><sub><a href="#security-advanced">高级 :star:</a></sub></td>
+    <td align="center"><a href="#security"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>安全</b></a><br /><sub><a href="#security-beginner">初级 :baby:</a></sub><br><sub><a href="#security-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#puppet"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a><br /><sub><a href="#puppet-beginner">初级 :baby:</a></sub><br><sub><a href="#puppet-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#openshift"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a><br /><sub><a href="#openshift-beginner">初级 :baby:</a></sub><br><sub></td>
   </tr>
   <tr>
     <td align="center"><a href="#monitoring"><img src="images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>Monitoring</b></a><br /><sub><a href="#monitoring-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#elastic"><img src="images/elastic.png" width="110px;" height="75px;" alt="Elastic"/><br /><b>Elastic</b></a></td>
-    <td align="center"><a href="#virtualization"><img src="images/virtualization.png" width="75px;" height="75px;" alt="Virtualization"/><br /><b>Virtualization</b></a><br /><sub><a href="#virtualization-beginner">初级 :baby:</a></sub><br><sub></td>
+    <td align="center"><a href="#virtualization"><img src="images/virtualization.png" width="75px;" height="75px;" alt="Virtualization"/><br /><b>虚拟化</b></a><br /><sub><a href="#virtualization-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#dns"><img src="images/dns.png" width="75px;" height="75px;" alt="DNS"/><br /><b>DNS</b></a><br /><sub><a href="#dns-beginner">初级 :baby:</a></sub><br><sub></td>
-    <td align="center"><a href="#operating-system"><img src="images/os.png" width="75px;" height="75px;" alt="Operating System"/><br /><b>Operating System</b></a></td>
+    <td align="center"><a href="#operating-system"><img src="images/os.png" width="75px;" height="75px;" alt="Operating System"/><br /><b>操作系统</b></a></td>
     <td align="center"><a href="#distributed"><img src="images/distributed.png" width="110px;" height="75px;" alt="Distributed"/><br /><b>Distributed</b></a></td>
     <td align="center"><a href="#general"><img src="images/general.png" width="110px;" height="75px;" alt="General"/><br /><b>General</b></a><br /><sub><a href="#general-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#HR"><img src="images/HR.png" width="110px;" height="75px;" alt="HR"/><br /><b>HR</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#testing"><img src="images/testing.png" width="75px;" height="75px;" alt="Testing"/><br /><b>Testing</b></a></td>
-    <td align="center"><a href="#databases"><img src="images/databases.png" width="75px;" height="75px;" alt="Databases"/><br /><b>Databases</b></a></td>
-    <td align="center"><a href="#regex"><img src="images/regex.png" width="75ph;" height="75px;" alt="RegEx"/><br /><b>Regex</b></a><br /><sub><a href="#regex-beginner">初级 :baby:</a></sub><br><sub></td>
-    <td align="center"><a href="#design"><img src="images/design.png" width="110px;" height="75px;" alt="Design"/><br /><b>Design</b></a></td>
-    <td align="center"><a href="#hardware"><img src="images/hardware.png" width="110px;" height="75px;" alt="Hardware"/><br /><b>Hardware</b></a></td>
-    <td align="center"><a href="#big-data"><img src="images/big-data.png" width="110px;" height="75px;" alt="Big Data"/><br /><b>Big Data</b></a></td>
-    <td align="center"><a href="#questions-you-ask"><img src="images/you.png" width="110px;" height="75px;" alt="you"/><br /><b>Questions you ask</b></a></td>
-    <td align="center"><a href="#exercises"><img src="images/exercises.png" width="110px;" height="75px;" alt="Exercises"/><br /><b>Exercises</b></a></td>
+    <td align="center"><a href="#testing"><img src="images/testing.png" width="75px;" height="75px;" alt="Testing"/><br /><b>测试</b></a></td>
+    <td align="center"><a href="#databases"><img src="images/databases.png" width="75px;" height="75px;" alt="Databases"/><br /><b>数据库</b></a></td>
+    <td align="center"><a href="#regex"><img src="images/regex.png" width="75ph;" height="75px;" alt="RegEx"/><br /><b>正则表达式</b></a><br /><sub><a href="#regex-beginner">初级 :baby:</a></sub><br><sub></td>
+    <td align="center"><a href="#design"><img src="images/design.png" width="110px;" height="75px;" alt="Design"/><br /><b>设计</b></a></td>
+    <td align="center"><a href="#hardware"><img src="images/hardware.png" width="110px;" height="75px;" alt="Hardware"/><br /><b>硬件</b></a></td>
+    <td align="center"><a href="#big-data"><img src="images/big-data.png" width="110px;" height="75px;" alt="Big Data"/><br /><b>大数据</b></a></td>
+    <td align="center"><a href="#questions-you-ask"><img src="images/you.png" width="110px;" height="75px;" alt="you"/><br /><b>“你有什么想问的吗？”</b></a></td>
+    <td align="center"><a href="#exercises"><img src="images/exercises.png" width="110px;" height="75px;" alt="Exercises"/><br /><b>练习</b></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#certificates"><img src="images/certificates.png" width="75px;" height="75px;" alt="Certificates"/><br /><b>Certificates</b></a></td>
+    <td align="center"><a href="#certificates"><img src="images/certificates.png" width="75px;" height="75px;" alt="Certificates"/><br /><b>认证</b></a></td>
   </tr>
 </table>
 </center>
@@ -90,210 +90,208 @@
 
 亚马逊Amazon:
 
-"DevOps是文化理念，实践和工具的结合，可提高组织高速交付应用程序和服务的能力：与使用传统软件开发和基础架构管理流程的组织相比，产品的发展和改进速度更快。 这种速度使组织可以更好地为客户提供服务，并在市场上更有效地竞争。"
+"DevOps是文化理念，实践和工具的结合，可提高组织高速交付应用程序和服务的能力：与使用传统软件开发和基础架构管理流程的组织相比，产品的发展和改进速度更快。这种速度使组织可以更好地为客户提供服务，并在市场上更有效地竞争。"
 
 微软Microsoft:
 
-"DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications."
+"DevOps是人员，流程和产品的结合，可为我们的最终用户持续交付价值。“开发（development）”和“运维（operation）”的收缩是指取代孤立的开发和运营来创建多学科的团队，这些团队现在可以与共享的高效实践和工具一起工作。DevOps的基本实践包括敏捷规划，持续集成，持续交付以及对应用程序的监视。"
 
 红帽公司Red Hat:
 
-"DevOps describes approaches to speeding up the processes by which an idea (like a new software feature, a request for enhancement, or a bug fix) goes from development to deployment in a production environment where it can provide value to the user. These approaches require that development teams and operations teams communicate frequently and approach their work with empathy for their teammates. Scalability and flexible provisioning are also necessary. With DevOps, those that need power the most, get it—through self service and automation. Developers, usually coding in a standard development environment, work closely with IT operations to speed software builds, tests, and releases—without sacrificing reliability."
+"DevOps描述了加快想法（例如新的软件功能，增强功能请求或bug修复）从开发到在生产环境中进行部署的过程的方法，该过程可以为用户提供价值。这些方法要求开发团队和运营团队更为高频地进行沟通，并以换位思考的态度对待彼此的工作。可伸缩性和灵活的配置文件也是必要的。借助DevOps，那些最需要力量的人们可以通过自助和自动化服务获得能量。通常，在标准开发环境中进行编码的开发人员会与IT运维工程师紧密合作，以在不牺牲可靠性的情况下加快软件的构建，测试和发布的速度。"
 
 </b></details>
 
 <details>
-<summary>What are the benefits of DevOps? What it can help us to achieve?</summary><br><b>
+<summary>采用DevOps的好处是什么? 它可以帮助我们达成什么目标?</summary><br><b>
 
-You should mention some or all of the following:
+建议提及以下列出的部分或全部事项:
 
-  * Collaboration
-  * Improved delivery
-  * Security
-  * Speed
-  * Scale
-  * Reliability
+  * 协作
+  * 改进交付
+  * 安全
+  * 速度
+  * 规模
+  * 可靠性
 
-Make sure to elaborate :)
+请务必详细说明 :)
 </b></details>
 
 <details>
-<summary>What are the anti-patterns of DevOps?</summary><br><b>
+<summary>描述一下与DevOps的相反的开发模式?</summary><br><b>
 
-* Not allowing to push in production on Friday :)
-* One specific person is in charge of different tasks. For example there is only one person who is allowed to merge the code of everyone else
-* Treating production differently from development environment. For example, not implementing security in development environment
+* 不支持团队在周五改进产品（你确定？） :)
+* 特定人员负责开发部署中的特定环节。比如说，指定专人负责合并其他人的代码。
+* 将开发环境与部署环境割裂开来。打个比方，~~先污染后治理~~在开发过程中不注重产品的安全性。
 </b></details>
 
 <details>
-<summary>What is Continuous Integration?</summary><br><b>
+<summary>什么是持续集成（CI, Continuous Integration）?</summary><br><b>
 
-A development practice where developers integrate code into a shared repository frequently. It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
+一种从软件开发实践的经验中提取出来的概念，指开发人员频繁地将代码集成到共享存储库的开发模式，从低频率的每天、每周提交几次少量更改，到数小时内大规模更改。
 
-Each piece of code (change/patch) is verified, to make the change is safe to merge. Today, it's a common practice to test the change using an automated build that makes sure the code can integrated. It can be one build which runs several tests in different levels (unit, functional, etc.) or several separate builds that all or some has to pass in order for the change to be merged into the repository.
+每一段更改或修补的代码片段都被检测过，从而达到安全集成的目的。现如今, 为了确保代码可集成，使用自动化构建模块来测试更新是一种常见的做法。这种自动化构建模块可以是负责在单元、功能等不同层次进行测试的一个完整构建文件，也可以是按次序排列好的一系列构建文件组成的文件集，目的是确保更新的代码片段能合并到主存储库中。
+
 </b></details>
 
 <details>
-<summary>What is Continuous Deployment?</summary><br><b>
+<summary>什么是持续部署（CD,Continuous Deployment)?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Continuous Delivery?</summary><br><b>
+<summary>什么是持续交付（CD,Continuous Delivery)?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What CI/CD best practices are you familiar with? Or what do you consider as CI/CD best practice?</summary><br><b>
+<summary>你熟悉哪些CI/CD的最佳实践? 或者说你认为的CI/CD最佳实践是什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What systems and/or tools are you using for the following?:
+<summary>你使用那些系统或工具用于以下操作?:
 
   * CI/CD
   * Provisioning infrastructure
-  * Configuration Management
-  * Monitoring & alerting
-  * Logging
-  * Code review
-  * Code coverage
-  * Tests</summary><br><b>
+  * 配置管理
+  * 监控和警报
+  * 日志
+  * 代码审查
+  * 代码覆盖
+  * 测试</summary><br><b>
   * CI/CD - Jenkins, Circle CI, Travis
   * Provisioning infrastructure - Terraform, CloudFormation
-  * Configuration Management - Ansible, Puppet, Chef
-  * Monitoring & alerting - Prometheus, Nagios
-  * Logging - Logstash, Graylog, Fluentd
-  * Code review - Gerrit, Review Board
-  * Code coverage - Cobertura, Clover, JaCoCo
-  * Tests - Robot, Serenity, Gauge
+  * 配置管理 - Ansible, Puppet, Chef
+  * 监控和警报 - Prometheus, Nagios
+  * 日志 - Logstash, Graylog, Fluentd
+  * 代码审查 - Gerrit, Review Board
+  * 代码覆盖 - Cobertura, Clover, JaCoCo
+  * 测试 - Robot, Serenity, Gauge
 </b></details>
 
 <details>
-<summary>What are you taking into consideration when choosing a tool/technology?</summary><br><b>
+<summary>你是出于那些考虑，选择了上述系统或工具?</summary><br><b>
 
-In your answer you can mention one or more of the following:
-  * mature vs. cutting edge
-  * community size
-  * architecture aspects - agent vs. agentless, master vs. masterless, etc.
+建议在回答中提及以下一项或者多项:
+  * 稳定 vs. 创新特性
+  * 社区规模
+  * 体系结构方面 - 有代理 vs. 无代理, 集中式 vs. 分布式, 等等.
 </b></details>
 
 <details>
-<summary>Explain mutable vs. immutable infrastructure</summary><br><b>
+<summary>阐述一下可变基础架构与不可变基础架构的同异</summary><br><b>
 
-In mutable infrastructure paradigm, changes are applied on top of the existing infrastructure and over time
-the infrastructure builds up a history of changes. Ansible, Puppet and Chef are examples of tools which
-follow mutable infrastructure paradigm.
+在可变基础结构范式中，更改应用在现有基础结构的顶部，随着时间的推移，基础结构会建立更改的历史。Ansible、Puppet 和 Chef 是遵循可变基础结构范例的工具示例。
 
-In immutable infrastructure paradigm, every change is actually a new infrastructure. So a change
-to a server will result in a new server instead of updating it. Terraform is an example of technology
-which follows the immutable infrastructure paradigm.
+在不可变的基础结构范例中，每次更改实际上都是一个新的基础结构。因此，对服务器的更改将导致新服务器，而不是更新它。Terraform 是遵循不可变基础结构范例的技术示例。
 </b></details>
 
 <details>
-<summary>What ways are you familiar with to deliver a software? What are the advantages and disadvantages of each method?</summary><br><b>
+<summary>你熟悉哪些用来交付软件的方式? 他们的优缺是什么?</summary><br><b>
 
-  * Archive - collect all your app files into one archive (e.g. tar) and deliver it to the user.
-  * Package - depends on the OS, you can use your OS package format (e.g. in RHEL/Fefodra it's RPM) to deliver your software with a way to install, uninstall and update it using the standard packager commands
-  * Images - Either VM or container images where your package is included with everything it needs in order to run successfully.
+  * 存档 - 将所有应用文件收集到一个存档中（例如 tar），然后交付给用户。
+  * 编译 - 你可以使用依赖于操作系统的编译格式标准(例如，在 RHEL/Fefodra中是RPM包)和编译程序来安装、卸载和更新软件。
+  * 镜像 - 虚拟机VM或容器镜像中包含了为了成功运行所需要的一切。
 </b></details>
 
 <details>
-<summary>What is caching? How does it works? Why is it important?</summary><br><b>
+<summary>什么是缓存？它是如何工作的？为什么它很重要？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain stateless vs. stateful</summary><br><b>
+<summary>阐述一下无状态与有状态</summary><br><b>
 
-Stateless applications don't store any data in the host which makes it ideal for horizontal scaling and microservices.
-Stateful applications depend on the storage to save state and data, typically databases are stateful applications.
+无状态应用程序不会将任何数据存储在主机中，这使得它非常适合大规模扩展和微服务。有状态应用程序依赖于存储来保存状态和数据，数据库是典型的有状态应用程序。
 </b></details>
 
 <details>
-<summary>Describe the workflow of setting up some type of web server (Apache, IIS, Tomcat, ...)</summary><br><b>
+<summary>描述几种类型服务器的环境搭建步骤 (Apache, IIS, Tomcat, ...)</summary><br><b>
 </b></details>
 
 <details>
-<summary>How a web server works?</summary><br><b>
+<summary>web服务器的工作原理是什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain "Open Source"</summary><br><b>
+<summary>解释一下什么是“开源"</summary><br><b>
 </b></details>
 
 <details>
-<summary>Describe me the architecture of service/app/project/... you designed and/or implemented</summary><br><b>
+<summary>描述一下你设计或实施的服务、应用和项目</summary><br><b>
 </b></details>
 
 <details>
-<summary>What types of tests are you familiar with?</summary><br><b>
+<summary>你熟悉哪些类型的测试?</summary><br><b>
 
 Styling, unit, functional, API, integration, smoke, scenario, ...
 
-You should be able to explain those that you mention.
+你应该能够清楚说明你所提及的
 </b></details>
 
 <details>
-<summary>You need to install periodically the same package on different operating systems (Ubuntu, RHEL, ...). How would you do it?</summary><br><b>
+<summary>现在有一个需要在不同操作系统（Ubuntu、RHEL等）上定期安装相同包的任务，你会怎么做?</summary><br><b>
 
-It can be as simple as one Ansible (or other CM tool) task that runs periodically with Cron. In more advanced cases, perhaps a CI system.
+它可以像一个 Ansible（或其他 CM 工具）任务一样简单，该任务与 Cron 一起定期运行。在更高级的情况下，可能是 CI 系统。
 </b></details>
 
 <details>
-<summary>What is Reliability? How does it fit DevOps?</summary><br><b>
+<summary>什么是可靠性？它如何适合DevOps?</summary><br><b>
 
-Reliability, when used in DevOps context, is the ability of a system to recover from infrastructure failure or disruption. Part of it is also being able to scale based on your organization or team demands.
+在DevOps语境中, 可靠性是指系统从基础结构故障或中断中恢复的能力。其中一部分还能够根据组织或团队需求进行扩展。
+
+
 </b></details>
 
 <details>
-<summary>Compare SRE to DevOps</summary><br><b>
+<summary>比较一下SRE和DevOps</summary><br><b>
 </b></details>
 
 <details>
-<summary>What SRE team is responsible for?</summary><br><b>
+<summary>SRE团队负责什么?</summary><br><b>
 
-One can argue whether it's per company definition or a global one but at least according to a large companies, like Google for example, the SRE team is responsible for availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning of their services
+人们可以争论是按公司定义还是全球定义，但至少根据 Google 等大公司的说法，SRE 团队负责其服务的可用性、延迟、性能、效率、变更管理、监控、应急响应和容量规划
 </b></details>
 
 <details>
-<summary>What is an error budget?</summary><br><b>
+<summary>什么是错误预算?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What are MTTF (mean time to failure) and MTTR (mean time to repair)? What these metrics help us to evaluate?</summary><br><b>
+<summary>平均故障时间MTTF (mean time to failure)和平均维修时间MTTR (mean time to repair)是什么?这些指标能帮助我们评估什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a post-mortem meeting?</summary><br><b>
+<summary>事后剖析会议（post-mortem meeting）是什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is "infrastructure as code"? What implementation of IAC are you familiar with?</summary><br><b>
+<summary>什么是”基础架构作为代码（infrastructure as code）"? 你熟悉哪些IAC实现?</summary><br><b>
 </b></details>
 
 <details>
-<summary>How do you manage build artifacts?</summary><br><b>
+<summary>你如何规划组织构建工程?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What Continuous Integration solution are you using/prefer and why?</summary><br><b>
+<summary>你使用/首选什么持续集成方案，为什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What deployment strategies are you familiar with or have used?</summary><br><b>
+<summary>你熟悉或使用过哪些部署策略?</summary><br><b>
 </b></details>
 
 <details>
-<summary>You joined a team where everyone developing one project and the practice is to run tests locally on their workstation and push it to the repository if the tests passed. What is the problem with the process as it is now and how to improve it?</summary><br><b>
+<summary>您加入了一个团队，其中所有人在共同开发一个项目，做法是在他们的工作站上本地运行测试，并在测试通过时将测试后的代码推送到存储库。这样的过程有什么问题，如何改进它？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain test-driven development (TDD)</summary><br><b>
+<summary>阐释一下测试驱动开发（TDD, test-driven development）</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain agile software development</summary><br><b>
+<summary>解释敏捷软件开发</summary><br><b>
 </b></details>
 
 <details>
-<summary>Is it right to say implementing or practicing DevOps leads to more secure software?</summary><br><b>
+<summary>“实施或实践 DevOps 会开发出更安全的软件”，这一说法是正确的吗?</summary><br><b>
 </b></details>
 
 <a name="devops-advanced"></a>
