@@ -32,7 +32,7 @@
     <td align="center"><a href="#docker"><img src="images/docker.png" width="70px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a><br /><sub><a href="#docker-beginner">初级 :baby:</a></sub><br><sub><a href="#docker-advanced">高级 :star:</a></sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a><br /><sub><a href="#coding-beginner">初级 :baby:</a></sub><br><sub><a href="#coding-advanced">高级 :star:</a></sub></td>
+    <td align="center"><a href="#coding"><img src="images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>编码</b></a><br /><sub><a href="#coding-beginner">初级 :baby:</a></sub><br><sub><a href="#coding-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#python"><img src="images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a><br /><sub><a href="#python-beginner">初级 :baby:</a></sub><br><sub><a href="#python-advanced">高级 :star:</a></sub></td>
     <td align="center"><a href="#go"><img src="images/Go.png" width="75px;" height="75px;" alt="go"/><br /><b>Go</b></a><br /><sub><a href="#go-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#shell-scripting"><img src="images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell脚本编程</b></a><br /><sub><a href="#shell-scripting-beginner">初级 :baby:</a></sub><br><sub><a href="#shell-scripting-advanced">高级 :star:</a></sub></td>
@@ -42,7 +42,7 @@
     <td align="center"><a href="#sql"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a><br /><sub><a href="#sql-beginner">初级 :baby:</a></sub><br><sub><a href="#sql-advanced">高级 :star:</a></sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="#cloud"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a><br /><sub><a href="#cloud-beginner">初级 :baby:</a></sub><br><sub></td>
+    <td align="center"><a href="#cloud"><img src="images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>云</b></a><br /><sub><a href="#cloud-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#aws"><img src="images/aws.png" width="75px;" height="75px;" alt="aws"/><br /><b>AWS</b></a></td>
     <td align="center"><a href="#azure"><img src="images/azure.png" width="75px;" height="75px;" alt="azure"/><br /><b>Azure</b></a><br /><sub><a href="#azure-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#gcp"><img src="images/googlecloud.png" width="80px;" height="75px;" alt="Google Cloud Platform"/><br /><b>Google Cloud Platform</b></a><br /><sub><a href="#gcp-beginner">初级 :baby:</a></sub><br><sub></td>
@@ -52,12 +52,12 @@
     <td align="center"><a href="#openshift"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a><br /><sub><a href="#openshift-beginner">初级 :baby:</a></sub><br><sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="#monitoring"><img src="images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>Monitoring</b></a><br /><sub><a href="#monitoring-beginner">初级 :baby:</a></sub><br><sub></td>
+    <td align="center"><a href="#monitoring"><img src="images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>监控</b></a><br /><sub><a href="#monitoring-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#elastic"><img src="images/elastic.png" width="110px;" height="75px;" alt="Elastic"/><br /><b>Elastic</b></a></td>
     <td align="center"><a href="#virtualization"><img src="images/virtualization.png" width="75px;" height="75px;" alt="Virtualization"/><br /><b>虚拟化</b></a><br /><sub><a href="#virtualization-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#dns"><img src="images/dns.png" width="75px;" height="75px;" alt="DNS"/><br /><b>DNS</b></a><br /><sub><a href="#dns-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#operating-system"><img src="images/os.png" width="75px;" height="75px;" alt="Operating System"/><br /><b>操作系统</b></a></td>
-    <td align="center"><a href="#distributed"><img src="images/distributed.png" width="110px;" height="75px;" alt="Distributed"/><br /><b>Distributed</b></a></td>
+    <td align="center"><a href="#distributed"><img src="images/distributed.png" width="110px;" height="75px;" alt="Distributed"/><br /><b>分布式</b></a></td>
     <td align="center"><a href="#general"><img src="images/general.png" width="110px;" height="75px;" alt="General"/><br /><b>General</b></a><br /><sub><a href="#general-beginner">初级 :baby:</a></sub><br><sub></td>
     <td align="center"><a href="#HR"><img src="images/HR.png" width="110px;" height="75px;" alt="HR"/><br /><b>HR</b></a></td>
   </tr>
@@ -147,10 +147,10 @@
 </b></details>
 
 <details>
-<summary>你使用那些系统或工具用于以下操作?:
+<summary>你使用哪些系统或工具用于以下操作?:
 
   * CI/CD
-  * Provisioning infrastructure
+  * 基础设施
   * 配置管理
   * 监控和警报
   * 日志
@@ -158,7 +158,7 @@
   * 代码覆盖
   * 测试</summary><br><b>
   * CI/CD - Jenkins, Circle CI, Travis
-  * Provisioning infrastructure - Terraform, CloudFormation
+  * 基础设施 - Terraform, CloudFormation
   * 配置管理 - Ansible, Puppet, Chef
   * 监控和警报 - Prometheus, Nagios
   * 日志 - Logstash, Graylog, Fluentd
@@ -168,7 +168,7 @@
 </b></details>
 
 <details>
-<summary>你是出于那些考虑，选择了上述系统或工具?</summary><br><b>
+<summary>你是出于哪些考虑，选择了上述系统或工具?</summary><br><b>
 
 建议在回答中提及以下一项或者多项:
   * 稳定 vs. 创新特性
@@ -279,7 +279,7 @@ Styling, unit, functional, API, integration, smoke, scenario, ...
 </b></details>
 
 <details>
-<summary>您加入了一个团队，其中所有人在共同开发一个项目，做法是在他们的工作站上本地运行测试，并在测试通过时将测试后的代码推送到存储库。这样的过程有什么问题，如何改进它？</summary><br><b>
+<summary>你加入了一个团队，其中所有人在共同开发一个项目，做法是在他们的工作站上本地运行测试，并在测试通过时将测试后的代码推送到存储库。这样的过程有什么问题，如何改进它？</summary><br><b>
 </b></details>
 
 <details>
@@ -298,46 +298,44 @@ Styling, unit, functional, API, integration, smoke, scenario, ...
 #### :star: 高级
 
 <details>
-<summary>Tell me how you perform plan capacity for your CI/CD resources (e.g. servers, storage, etc.)</summary><br><b>
+<summary>告诉我如何执行 CI/CD 资源的计划容量（例如服务器、存储等）</summary><br><b>
 </b></details>
 
 <details>
-<summary>How would you structure/implement CD for an application which depends on several other applications?</summary><br><b>
+<summary>你如何为依赖于其他几个应用程序的应用程序构建/实现 CD?</summary><br><b>
 </b></details>
 
 <details>
-<summary>How do you measure your CI/CD quality? Are there any metrics or KPIs you are using for measuring the quality?</summary><br><b>
+<summary>如何衡量你的 CI/CD 质量？是否有任何指标或 KPI 用于衡量质量？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a configuration drift? What problems is it causing?</summary><br><b>
+<summary>什么是配置漂移？它导致什么问题？</summary><br><b>
 
-Configuration drift happens when in an environment of servers with the exact same configuration and software, a certain server
-or servers are being applied with updates or configuration which other servers don't get and over time these servers become
-slightly different than all others.
+当在配置和软件完全相同的服务器环境中，某些服务器或服务器应用了其他服务器无法获取的更新或配置时，就会发生配置漂移，随着时间的推移，这些服务器变得与所有其他服务器略有不同。
 
-This situation might lead to bugs which hard to identify and reproduce.
+这种情况可能导致难以识别和重现的Bug。
 </b></details>
 
 <details>
-<summary>How to deal with a configuration drift?</summary><br><b>
+<summary>如何处理配置漂移？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Do you have experience with testing cross-projects changes? (aka cross-dependency)</summary><br><b>
+<summary>你是否有测试跨项目更改的经验？（也称为交叉依赖）</summary><br><b>
 
-Note: cross-dependency is when you have two or more changes to separate projects and you would like to test them in mutual build instead of testing each change separately.
+注意：交叉依赖是当你对单独的项目有两个或多个更改，并且希望在相互生成中测试它们，而不是单独测试每个更改时。
 </b></details>
 
 <details>
-<summary>Have you contributed to an open source project? Tell me about this experience</summary><br><b>
+<summary>你是否为开源项目做出了贡献？告诉我这次经历</summary><br><b>
 </b></details>
 
 <details>
-<summary>Are you familiar with "The Cathedral and the Bazaar models"? Explain each of the models</summary><br><b>
+<summary>你熟悉"大教堂和集市模型"吗？解释每个模型</summary><br><b>
 
-* Cathedral - source code released when software is released
-* Bazaar - source code is always available publicly (e.g. Linux Kernel)
+* 大教堂 - 软件发布时发布的源代码
+* 集市 - 源代码始终公开提供（例如 Linux 内核）
 </b></details>
 
 ## Jenkins
@@ -346,16 +344,16 @@ Note: cross-dependency is when you have two or more changes to separate projects
 #### :baby: 初级
 
 <details>
-<summary>What is Jenkins? What have you used it for?</summary><br><b>
+<summary>什么是Jenkins? 你把它用来干什么用的?</summary><br><b>
 
-Jenkins is an open source automation tool written in Java with plugins built for Continuous Integration purpose. Jenkins is used to build and test your software projects continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build. It also allows you to continuously deliver your software by integrating with a large number of testing and deployment technologies.
+Jenkins 是一个用 Java 编写的开源自动化工具，其插件是为持续集成而构建的。Jenkins 用于持续构建和测试软件项目，使开发人员更容易集成对项目的更改，并使用户能够更轻松地获得新的生成。它还允许你通过与大量测试和部署技术集成来持续交付软件。
 
-Jenkins integrates development life-cycle processes of all kinds, including build, document, test, package, stage, deploy, static analysis and much more.
+Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试、包、阶段、部署、静态分析等。
 
 </b></details>
 
 <details>
-<summary>What are the advantages of Jenkins over its competitors? Can you compare it to one of the following systems?
+<summary>Jenkins对比其他同领域竞争者的优势是什么? 你能将它与下列系统一一对比吗?
 
   * Travis
   * Bamboo
@@ -364,11 +362,11 @@ Jenkins integrates development life-cycle processes of all kinds, including buil
 </b></details>
 
 <details>
-<summary>What are the limitations or disadvantages of Jenkins?</summary><br><b>
+<summary>Jenkins的局限性或者缺点是什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain the following:
+<summary>解释下列内容:
 
   * Job
   * Build
@@ -378,101 +376,101 @@ Jenkins integrates development life-cycle processes of all kinds, including buil
 </b></details>
 
 <details>
-<summary>What plugins have you used in Jenkins?</summary><br><b>
+<summary>你使用过哪些Jenkins插件?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain CI/CD and how you implemented it in Jenkins</summary><br><b>
+<summary>解释 CI/CD 以及你如何在 Jenkins 中实现它</summary><br><b>
 </b></details>
 
 <details>
-<summary>What type of jobs are there? Which types have you used?</summary><br><b>
+<summary>Jenkins有什么类型的工作？你使用过哪些类型？</summary><br><b>
 </b></details>
 
 <details>
-<summary>How did you report build results to users? What ways are you familiar with for reporting results?</summary><br><b>
+<summary>你如何向用户报告生成结果？你熟悉哪些方法可以报告结果？</summary><br><b>
 </b></details>
 
 <details>
-<summary>You need to run unit tests every time a change submitted to a given project. Describe in details how your pipeline would look like and what will be executed in each stage</summary><br><b>
+<summary>每次将更改提交到给定项目时，都需要运行单元测试。详细描述管道的外观以及每个阶段将执行什么</summary><br><b>
 </b></details>
 
 <details>
-<summary>How to secure Jenkins?</summary><br><b>
+<summary>如何保护Jenkins的安全?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Can you describe some of Jenkins best practices?</summary><br><b>
+<summary>你能描述一下Jenkins的一些最佳实践吗?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Describe how do you add new slaves to Jenkins</summary><br><b>
+<summary>描述如何向Jenkins添加新从属元？</summary><br><b>
 
-You can describe the UI way to add new slaves but better to explain how to do in a way that scales like a script or using dynamic source for slaves like one of the existing clouds.
+你可以描述UI添加新从属元的方式，但最好解释如何像脚本一样缩放或使用动态源来扩展从属服务器（如现有云之一）。
 </b></details>
 
 <a name="jenkins-advanced"></a>
 #### :star: 高级
 
 <details>
-<summary>How to acquire multiple slaves for one specific build?</summary><br><b>
+<summary>如何为指定构建获取多个从属服务器？</summary><br><b>
 </b></details>
 
 <details>
-<summary>There are four teams in your organization. How to prioritize the builds of each team? So the jobs of team x will always run before team y for example</summary><br><b>
+<summary>你的组织中有四个团队。如何确定每个团队的构建优先级？例如团队 x 的工作将始终在团队 y 之前运行</summary><br><b>
 </b></details>
 
 <details>
-<summary>If you are managing a dozen of jobs, you can probably use the Jenkins UI. How do you manage the creation and deletion of hundreds of jobs every week/month?</summary><br><b>
+<summary>如果你要管理十几个作业，可以使用 Jenkins UI。你如何管理每周/每月数百个作业的创建和删除？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What are some of Jenkins limitations?</summary><br><b>
+<summary>Jenkins有什么限制？</summary><br><b>
 
-  * Testing cross-dependencies (changes from multiple projects together)
-  * Starting builds from any stage (although cloudbees implemented something called checkpoints)
+  * 测试交叉依赖关系（从多个项目一起更改）
+  * 从任何阶段开始生成（尽管cloudbees实现了所谓的检查点）
 </b></details>
 
 <details>
-<summary>How would you implement an option of a starting a build from a certain stage and not from the beginning?</summary><br><b>
+<summary>您如何实现从某个阶段而不是从开始开始生成的选项？</summary><br><b>
 </b></details>
 
 #### Jenkins Dev
 
 <details>
-<summary>Do you have experience with developing a Jenkins plugin? Can you describe this experience?</summary><br><b>
+<summary>你有开发Jenkins插件的经验吗？你能描述一下这段经历吗？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Have you written Jenkins scripts? If yes, what for and how they work?</summary><br><b>
+<summary>你写过Jenkins的脚本吗？如果是，它们是如何工作的？</summary><br><b>
 </b></details>
 
 #### Jenkins Integration
 
 <details>
-<summary>How would you collect logs from Jenkins builds (not master) and display them to user via Kibana? Describe the process, components, etc.<br>
+<summary>您如何从 Jenkins 生成（不是主版本）收集日志，并通过 Kibana 向用户显示日志？描述流程、组件等。<br>
 <img src="images/jenkins/jenkins-to-kibana.png" width="621x;" height="171px;"/>
 </summary><br><b>
 </b></details>
 
-## Cloud 
+## 云 
 
 <a name="cloud-beginner"></a>
 #### :baby: 初级
 
 <details>
-<summary>What is Cloud Computing? What is a Cloud Provider?</summary><br><b>
+<summary>什么是云计算？什么是云服务提供商？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What are the advantages of cloud computing? Mention at least 3 advantages</summary><br><b>
+<summary>云计算的优势是什么？提及至少 3 个优势</summary><br><b>
 
-* Pay as you go (or consumption-based payment) - you are paying only for what you are using. No upfront payments and payment stops when resources are no longer used.
-* Scalable - resources are scaled down or up based on demand
+* 基于运行时间的计费方式 (或基于消耗资源的计费方式) - 您只支付您使用的方法。当资源不再使用时，不会停止预付款和付款。
+* 可扩展 - 资源根据需求缩小或增加
 </b></details>
 
 <details>
-<summary>What types of Cloud Computing services are there?</summary><br><b>
+<summary>哪些类型的云计算服务？</summary><br><b>
 
 IAAS
 PAAS
@@ -480,7 +478,7 @@ SAAS
 </b></details>
 
 <details>
-<summary>Explain each of the following and give an example:
+<summary>解释以下每一项，并举一个示例：
 
   * IAAS
   * PAAS
@@ -488,40 +486,40 @@ SAAS
 </b></details>
 
 <details>
-<summary>What types of clouds (or cloud deployments) are there?</summary><br><b>
+<summary>存在哪些类型的云（或云部署）？</summary><br><b>
 
-  * Public
-  * Hybrid
-  * Private
+  * 公有云
+  * 混合云
+  * 私有云
 </b></details>
 
 <details>
-<summary>Explain each of the following Cloud Computing Deployments:
+<summary>解释以下每个云计算部署：
 
-  * Public
-  * Hybrid
-  * Private</summary><br><b>
+  * 公有云
+  * 混合云
+  * 私有云</summary><br><b>
 
-  * Hybrid - combination of public and private clouds
+  * 混合云 - 公有云和私有云的组合
 </b></details>
 
 <details>
-<summary>What are the differences between Cloud Providers and On-Premise solution?</summary><br><b>
+<summary>云提供商和本地解决方案之间有什么区别？</summary><br><b>
 
-In cloud providers, someone else owns and manages the hardware, hire the relevant infrastructure teams and pays for real-estate (for both hardware and people). You can focus on your business.
+在云提供商中，其他人拥有和管理硬件，雇佣相关的基础设施团队并支付房地产费用（硬件和人员）。您可以专注于您的业务。
 
-In On-Premise solution, it's quite the opposite. You need to take care of hardware, infrastructure teams and pay for everything which can be quite expensive. On the other hand it's tailored to your needs.
+在内部解决方案中，情况正好相反。您需要负责硬件、基础设施团队，并支付所有成本高昂的付费费用。另一方面，它根据您的需求量身定制。
 </b></details>
 
 <details>
-<summary>What is Serverless Computing?</summary><br><b>
+<summary>什么是无服务器计算？</summary><br><b>
 
-The main idea behind serverless computing is that you don't need to manage the creation and configuration of server. All you need to focus on is splitting your app into multiple functions which will be triggered by some actions.
+无服务器计算背后的主要理念是，您不需要管理服务器的创建和配置。所有您需要关注的是将应用拆分为多个功能，这些函数将由某些操作触发。
 
-It's important to note that:
+需要注意的是：
 
-* Serverless Computing is still using servers. So saying there are no servers in serverless computing is completely wrong
-* Serverless Computing allows you to have a different paying model. You basically pay only when your functions are running and not when the VM or containers are running as in other payment models
+* 无服务器计算仍在使用服务器。所以说没有服务器计算是完全错误的
+* 无服务器计算允许您具有不同的付费模式。您基本上仅在函数运行时支付，而不是在其他支付模型中运行 VM 或容器时支付
 </b></details>
 
 ## AWS
