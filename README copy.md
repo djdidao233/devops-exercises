@@ -155,7 +155,7 @@
   * 监控和警报
   * 日志
   * 代码审查
-  * 代码覆盖
+  * 代码覆盖率
   * 测试</summary><br><b>
   * CI/CD - Jenkins, Circle CI, Travis
   * 基础设施 - Terraform, CloudFormation
@@ -179,13 +179,13 @@
 <details>
 <summary>阐述一下可变基础架构与不可变基础架构的同异</summary><br><b>
 
-在可变基础结构范式中，更改应用在现有基础结构的顶部，随着时间的推移，基础结构会建立更改的历史。Ansible、Puppet 和 Chef 是遵循可变基础结构范例的工具示例。
+在可变基础架构范式中，更改应用在现有基础架构的顶部，随着时间的推移，基础架构会建立更改的历史。Ansible、Puppet 和 Chef 这些工具是遵循可变基础架构范式的经典例子。
 
-在不可变的基础结构范例中，每次更改实际上都是一个新的基础结构。因此，对服务器的更改将导致新服务器，而不是更新它。Terraform 是遵循不可变基础结构范例的技术示例。
+在不可变的基础结构范式中，每次更改实际上都是一个新的基础架构。因此，对服务器的更改将重建一个新的服务器，而不是更新它。Terraform 是遵循不可变基础架构范式的典型例子。
 </b></details>
 
 <details>
-<summary>你熟悉哪些用来交付软件的方式? 他们的优缺是什么?</summary><br><b>
+<summary>你熟悉哪些用来交付软件的方式? 他们的优缺点是什么?</summary><br><b>
 
   * 存档 - 将所有应用文件收集到一个存档中（例如 tar），然后交付给用户。
   * 编译 - 你可以使用依赖于操作系统的编译格式标准(例如，在 RHEL/Fefodra中是RPM包)和编译程序来安装、卸载和更新软件。
@@ -312,7 +312,7 @@ Styling, unit, functional, API, integration, smoke, scenario, ...
 <details>
 <summary>什么是配置漂移？它导致什么问题？</summary><br><b>
 
-当在配置和软件完全相同的服务器环境中，某些服务器或服务器应用了其他服务器无法获取的更新或配置时，就会发生配置漂移，随着时间的推移，这些服务器变得与所有其他服务器略有不同。
+在配置和软件完全相同的服务器环境中，当某些服务器应用了其他服务器无法获取的更新或配置时，就会发生配置漂移，随着时间的推移，这些服务器变得与所有其他服务器略有不同。
 
 这种情况可能导致难以识别和重现的Bug。
 </b></details>
@@ -348,7 +348,7 @@ Styling, unit, functional, API, integration, smoke, scenario, ...
 
 Jenkins 是一个用 Java 编写的开源自动化工具，其插件是为持续集成而构建的。Jenkins 用于持续构建和测试软件项目，使开发人员更容易集成对项目的更改，并使用户能够更轻松地获得新的生成。它还允许你通过与大量测试和部署技术集成来持续交付软件。
 
-Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试、包、阶段、部署、静态分析等。
+Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试、打包、阶段、部署、静态分析等。
 
 </b></details>
 
@@ -388,11 +388,11 @@ Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试
 </b></details>
 
 <details>
-<summary>你如何向用户报告生成结果？你熟悉哪些方法可以报告结果？</summary><br><b>
+<summary>你如何向用户报告构建结果？你熟悉以哪些方法来报告结果？</summary><br><b>
 </b></details>
 
 <details>
-<summary>每次将更改提交到给定项目时，都需要运行单元测试。详细描述管道的外观以及每个阶段将执行什么</summary><br><b>
+<summary>每次将更改提交到给定项目时，都需要运行单元测试。详细描述管道的外观以及每个阶段将执行的操作</summary><br><b>
 </b></details>
 
 <details>
@@ -427,12 +427,12 @@ Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试
 <details>
 <summary>Jenkins有什么限制？</summary><br><b>
 
-  * 测试交叉依赖关系（从多个项目一起更改）
-  * 从任何阶段开始生成（尽管cloudbees实现了所谓的检查点）
+  * 测试交叉依赖关系（有来自多个项目的变更）
+  * 从任何阶段开始构建（尽管cloudbees实现了所谓的检查点）
 </b></details>
 
 <details>
-<summary>您如何实现从某个阶段而不是从开始开始生成的选项？</summary><br><b>
+<summary>您如何实现从某个阶段而不是从最开始构建的选项？</summary><br><b>
 </b></details>
 
 #### Jenkins Dev
@@ -442,13 +442,13 @@ Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试
 </b></details>
 
 <details>
-<summary>你写过Jenkins的脚本吗？如果是，它们是如何工作的？</summary><br><b>
+<summary>你写过Jenkins的脚本吗？如果有，描述一下它们是如何工作的？</summary><br><b>
 </b></details>
 
 #### Jenkins Integration
 
 <details>
-<summary>您如何从 Jenkins 生成（不是主版本）收集日志，并通过 Kibana 向用户显示日志？描述流程、组件等。<br>
+<summary>您如何从 Jenkins 构建（不是主版本）收集日志，并通过 Kibana 向用户显示日志？描述流程、组件等。<br>
 <img src="images/jenkins/jenkins-to-kibana.png" width="621x;" height="171px;"/>
 </summary><br><b>
 </b></details>
@@ -463,14 +463,14 @@ Jenkins 集成了各种开发生命周期流程，包括生成、文档、测试
 </b></details>
 
 <details>
-<summary>云计算的优势是什么？提及至少 3 个优势</summary><br><b>
+<summary>云计算的优势是什么？至少提及3个优势</summary><br><b>
 
 * 基于运行时间的计费方式 (或基于消耗资源的计费方式) - 您只支付您使用的方法。当资源不再使用时，不会停止预付款和付款。
-* 可扩展 - 资源根据需求缩小或增加
+* 弹性、可扩展 - 资源根据需求缩小或增加
 </b></details>
 
 <details>
-<summary>哪些类型的云计算服务？</summary><br><b>
+<summary>以下分别是哪些类型的云计算服务？</summary><br><b>
 
 IAAS
 PAAS
@@ -488,55 +488,55 @@ SAAS
 <details>
 <summary>存在哪些类型的云（或云部署）？</summary><br><b>
 
-  * 公有云
-  * 混合云
-  * 私有云
+  * 公有云(Public)
+  * 混合云(Hybrid)
+  * 私有云(Private)
 </b></details>
 
 <details>
 <summary>解释以下每个云计算部署：
 
-  * 公有云
-  * 混合云
-  * 私有云</summary><br><b>
+  * 公有云(Public)
+  * 混合云(Hybrid)
+  * 私有云(Private)</summary><br><b>
 
   * 混合云 - 公有云和私有云的组合
 </b></details>
 
 <details>
-<summary>云提供商和本地解决方案之间有什么区别？</summary><br><b>
+<summary>云服务提供商和本地解决方案之间有什么区别？</summary><br><b>
 
-在云提供商中，其他人拥有和管理硬件，雇佣相关的基础设施团队并支付房地产费用（硬件和人员）。您可以专注于您的业务。
+在云服务提供商的解决方案中，其他人拥有服务器的硬件，雇佣相关的基础设施团队对硬件进行维护并支付维护费用（硬件和人员）。你可以专注于你的业务。
 
-在内部解决方案中，情况正好相反。您需要负责硬件、基础设施团队，并支付所有成本高昂的付费费用。另一方面，它根据您的需求量身定制。
+在本地解决方案中，情况正好相反。你拥有硬件和基础设施团队，并为高昂的成本支付所有费用。另一方面，它根据你的需求量身定制。
 </b></details>
 
 <details>
-<summary>什么是无服务器计算？</summary><br><b>
+<summary>什么是无服务器计算(Serverless)？</summary><br><b>
 
-无服务器计算背后的主要理念是，您不需要管理服务器的创建和配置。所有您需要关注的是将应用拆分为多个功能，这些函数将由某些操作触发。
+无服务器计算(Serverless)背后的主要理念是，你不需要管理服务器的创建和配置。你所需要关注的是将应用拆分为多个功能函数，这些功能函数将由某些操作触发。
 
 需要注意的是：
 
 * 无服务器计算仍在使用服务器。所以说没有服务器计算是完全错误的
-* 无服务器计算允许您具有不同的付费模式。您基本上仅在函数运行时支付，而不是在其他支付模型中运行 VM 或容器时支付
+* 无服务器计算允许您具有不同的付费模式。您基本上仅在函数运行时付费，而不是在其他支付模型中运行VM或容器时支付。
 </b></details>
 
-## AWS
+## 亚马逊云服务AWS(Amazon Web Services)
 
-#### Global Infrastructure
+#### 全局基础设施(Global Infrastructure)
 
 <details>
-<summary>Explain the following
+<summary>解释以下概念
 
-  * Availability zone
-  * Region
-  * Edge location</summary><br><b>
-AWS regions are data centers hosted across different geographical locations worldwide, each region is completely independent of one another.<br>
+  * 区域(Region)
+  * 可用区(Availability zone)
+  * 边缘位置(Edge location)</summary><br><b>
+AWS区域是遍布全球各地的数据中心，各个区域之间彼此完全独立。<br>
 
-Within each region, there are multiple isolated locations known as Availability Zones. Multiple availability zones ensure high availability in case one of them goes down.<br>
+在每个区域内，拥有多个地理隔离的位置，这些位置称为可用区。在一个区域内设立多个可用区的目的是：确保当某些可用区发生故障时，其余可用区可提供备选支持。可用区的设置带来了高可用性。<br>
 
-Edge locations are basically content delivery network which caches data and insures lower latency and faster delivery to the users in any location. They are located in major cities in the world.
+边缘位置主要是内容传递网络，它缓存数据以确保较低的延迟来更快地传递给任何位置的用户。他们遍布于世界上各个主要城市。
 </b></details>
 
 #### AWS IAM
@@ -681,7 +681,7 @@ Scheduled RI - launch within time windows you reserve
 Learn more about EC2 RI [here](https://aws.amazon.com/ec2/pricing/reserved-instances)
 </b></details>
 
-#### AWS Serverless Compute
+#### 亚马逊无服务器计算(AWS Serverless Compute)
 
 <details>
 <summary>Explain what is AWS Lambda</summary><br><b>
@@ -707,7 +707,7 @@ False. Charges are being made when the code is executed.
   * Python, Ruby, Go 
 </b></details>
 
-#### AWS Containers
+#### 亚马逊云容器（AWS Containers）
 
 <details>
 <summary>What is Amazon ECS?</summary><br><b>
@@ -733,27 +733,27 @@ Amazon definition: "AWS Fargate is a serverless compute engine for containers th
 Learn more [here](https://aws.amazon.com/fargate)
 </b></details>
 
-#### AWS Storage
+#### 亚马逊云存储(AWS Storag)
  
 <details>
-<summary>Explain what is AWS S3?</summary><br><b>
+<summary>解释一下什么是亚马逊S3?</summary><br><b>
 
-S3 stands for 3 S, Simple Storage Service.
-S3 is a object storage service which is fast, scalable and durable. S3 enables customers to upload, download or store any file or object that is up to 5 TB in size.
+S3是简单存储服务(Simple Storage Service)的缩写。
+S3是一种对象存储服务，它是快速，可伸缩和持久的。 S3使客户能够上传，下载或存储最大5 TB的文件或对象。 同时每个文件的最大大小为5 GB（如果大小超过5 GB，则分段上传）。
 
-More on S3 [here](https://aws.amazon.com/s3)
+在[这里]了解更多关于S3的知识(https://aws.amazon.com/s3)
 </b></details>
 
 <details>
-<summary>What is a bucket?</summary><br><b>
+<summary>什么是存储桶(bucket)?</summary><br><b>
 
-An S3 bucket is a resource which is similar to folders in a file system and allows storing objects, which consist of data.
+S3存储桶是一种资源，类似于文件系统中的文件夹，并且允许存储由数据及其元数据组成的对象。
 </b></details>
 
 <details>
-<summary>True or False? A bucket name must be globally unique</summary><br><b>
+<summary>存储桶的名字必须全局唯一。这种说法对还是错？</summary><br><b>
 
-True
+对
 </b></details>
 
 <details>
@@ -870,23 +870,23 @@ Learn more [here](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-accel
 </b></details>
 
 <details>
-<summary>Explain data consistency</summary><br><b>
+<summary>阐述一下数据一致性的概念</summary><br><b>
 </b></details>
 
 <details>
-<summary>Can you host dynamic websites on S3? What about static websites?</summary><br><b>
+<summary>你可以在S3上托管动态网站吗？静态网站呢？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What security measures have you taken in context of S3?</summary><br><b>
+<summary>你在S3中采取过哪些安全措施？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What storage options are there for EC2 Instances?</summary><br><b>
+<summary>EC2实例有多少个存储对象</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Amazon EFS?</summary><br><b>
+<summary>什么是亚马逊EFS?</summary><br><b>
 
 Amazon definition: "Amazon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources."
 
@@ -927,10 +927,10 @@ Lowest - Multi-site
 Highest - The cold method
 </b></details>
 
-#### AWS CloudFront
+#### 亚马逊内容分发(AWS CloudFront)
 
 <details>
-<summary>Explain what is CloudFront</summary><br><b>
+<summary>解释一下什么是内容分发(CloudFront)</summary><br><b>
 
 AWS definition: "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment."
 
@@ -938,21 +938,21 @@ More on CloudFront [here](https://aws.amazon.com/cloudfront)
 </b></details>
 
 <details>
-<summary>Explain the following
+<summary>解释以下概念
 
-  * Origin
-  * Edge location
-  * Distribution</summary><br><b>
+  * 域(Origin)
+  * 边缘位置(Edge location)
+  * 分布(Distribution)</summary><br><b>
 </b></details>
 
 <details>
-<summary>What delivery methods available for the user with CDN?</summary><br><b>
+<summary>CDN用户可以使用哪些交付方式？</summary><br><b>
 </b></details>
 
 <details>
-<summary>True or False?. Objects are cached for the life of TTL</summary><br><b>
+<summary>在TTL的生命周期内缓存对象。这一说法是对还是错？</summary><br><b>
 
-True
+对
 </b></details>
 
 <details>
@@ -1776,26 +1776,26 @@ AWS definition: "Amazon Simple Queue Service (SQS) is a fully managed message qu
 Learn more about it [here](https://aws.amazon.com/sqs)
 </b></details>
 
-## Network
+## 网络
 
 <a name="network-beginner"></a>
 #### :baby: 初级
 
 <details>
-<summary>What is Ethernet?</summary><br><b>
+<summary>什么是以太网</summary><br><b>
 
 Ethernet simply refers to the most common type of Local Area Network (LAN) used today. A LAN—in contrast to a WAN (Wide Area Network), which spans a larger geographical area—is a connected network of computers in a small area, like your office, college campus, or even home.
 </b></details>
 
 <details>
-<summary>What is TCP/IP?</summary><br><b>
+<summary>什么是TCP/IP协议？</summary><br><b>
 
 A set of protocols that define how two or more devices can communicate with each other.
 To learn more about TCP/IP, read [here](http://www.penguintutor.com/linux/basic-network-reference)
 </b></details>
 
 <details>
-<summary>What is a MAC address? What is it used for?</summary><br><b>
+<summary>什么是MAC地址？它起什么作用？</summary><br><b>
 
 A MAC address is a unique identification number or code used to identify individual devices on the network.
 
@@ -1804,11 +1804,11 @@ Packets that are sent on the ethernet are always coming from a MAC address and s
 </b></details>
 
 <details>
-<summary>When is this MAC address used?: ff:ff:ff:ff:ff:ff</summary><br><b>
+<summary>说明一下这个MAC地址的用途: ff:ff:ff:ff:ff:ff</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is an IP address?</summary><br><b>
+<summary>什么是IP地址？</summary><br><b>
 
 An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.An IP address serves two main functions: host or network interface identification and location addressing.
 
@@ -1816,7 +1816,7 @@ An Internet Protocol address (IP address) is a numerical label assigned to each 
 </b></details>
 
 <details>
-<summary>Explain subnet mask and given an example</summary><br><b>
+<summary>对子网掩码(subnet mask)说明并举例</summary><br><b>
 
 A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address. Subnet Mask is made by setting network bits to all "1"s and setting host bits to all "0"s. Within a given network, two host addresses are reserved for special purpose, and cannot be assigned to hosts. The "0" address is assigned a network address and "255" is assigned to a broadcast address, and they cannot be assigned to hosts.
 
@@ -1842,11 +1842,11 @@ A Subnet mask is a 32-bit number that masks an IP address, and divides the IP ad
 </b></details>
 
 <details>
-<summary>What is a private IP address? What do we need it for?</summary><br><b>
+<summary>什么是私有IP地址？他起什么作用？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain the OSI model. What layers there are? What each layer is responsible for?</summary><br><b>
+<summary>解释一下OSI模型？有哪些层？分别起什么作用？</summary><br><b>
 
 - Application: user end (HTTP is here)
 - Presentation: establishes context between application-layer entities (Encryption is here)
@@ -1860,7 +1860,7 @@ You can read more about the OSI model in [penguintutor.com](http://www.penguintu
 </b></details>
 
 <details>
-<summary>For each of the following determine to which OSI layer it belongs:
+<summary>以下概念分别属于OSI中的哪一层？
 
   * Error correction
   * Packets routing
@@ -1883,7 +1883,7 @@ You can read more about the OSI model in [penguintutor.com](http://www.penguintu
 </b></details>
 
 <details>
-<summary>What delivery schemes are you familiar with?</summary><br><b>
+<summary>你熟悉那些传送方案？</summary><br><b>
 
 Unitcast: One to one communication where there is one sender and one receiver.
 
@@ -1894,7 +1894,7 @@ Multicast: Sending a message to a group of subscribers. It can be one-to-many or
 </b></details>
 
 <details>
-<summary>What is CSMA/CD? Is it used in modern ethernet networks?</summary><br><b>
+<summary>什么是CSMA/CD？在现代以太网中有使用吗？</summary><br><b>
 
 CSMA/CD stands for Carrier Sense Multiple Access / Collision Detection.
 Its primarily focus it to manage access to shared medium/bus where only one host can transmit at a given point of time.
@@ -1910,15 +1910,15 @@ CSMA/CD algorithm:
 </b></details>
 
 <details>
-<summary>Describe the following network devices and the difference between them:
+<summary>描述以下网络设备和他们之间的区别：
 
-  * router
-  * switch
-  * hub</summary><br><b>
+  * 路由器(router)
+  * 交换机(switch)
+  * 集线器(hub)</summary><br><b>
 </b></details>
 
 <details>
-<summary>How does a router works?</summary><br><b>
+<summary>描述一下路由器的工作原理：</summary><br><b>
 
 A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks. A router inspects a given data packet's destination Internet Protocol address (IP address), calculates the best way for it to reach its destination and then forwards it accordingly.
 
@@ -1926,7 +1926,7 @@ A router is a physical or virtual appliance that passes information between two 
 </b></details>
 
 <details>
-<summary>What is NAT?</summary><br><b>
+<summary>什么是NAT？</summary><br><b>
 
  Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. 
 
@@ -1934,19 +1934,19 @@ A router is a physical or virtual appliance that passes information between two 
 </b></details>
 
 <details>
-<summary>What is a proxy? How does it works? What do we need it for?</summary><br><b>
+<summary>什么是代理(proxy)？他起什么作用？描述一下它的工作原理？</summary><br><b>
 
 A proxy server acts as a gateway between you and the internet. It’s an intermediary server separating end users from the websites they browse.
 
 If you’re using a proxy server, internet traffic flows through the proxy server on its way to the address you requested. The request then comes back through that same proxy server (there are exceptions to this rule), and then the proxy server forwards the data received from the website to you.
 
-roxy servers provide varying levels of functionality, security, and privacy depending on your use case, needs, or company policy.
+Proxy servers provide varying levels of functionality, security, and privacy depending on your use case, needs, or company policy.
 
 
 </b></details>
 
 <details>
-<summary>What is TCP? How does it works? What is the 3 way handshake?</summary><br><b>
+<summary>什么是TCP协议？描述一下他的工作原理？什么是三次握手？</summary><br><b>
 
 TCP 3-way handshake or three-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
 
@@ -1958,11 +1958,11 @@ A three-way handshake is primarily used to create a TCP socket connection. It wo
 </b></details>
 
 <details>
-<summary>How does SSL handshake work?</summary><br><b>
+<summary>描述一下SSL协议建立连接(SSL handshake) 的过程。</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is the difference between TCP and UDP?</summary><br><b>
+<summary>TCP和UDP有什么区别</summary><br><b>
 	
 TCP establishes a connection between the client and the server to guarantee the order of the packages, on the other hand, UDP does not establish a connection between client and server and doesn't handle package order. This makes UDP more lightweight than TCP and a perfect candidate for services like streaming.
 
@@ -1970,17 +1970,17 @@ TCP establishes a connection between the client and the server to guarantee the 
 </b></details>
 
 <details>
-<summary>What TCP/IP protocols are you familiar with?</summary><br><b>
+<summary>你熟悉哪些TCP/IP端口(protocols)？</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain "default gateway"</summary><br><b>
+<summary>解释一下“默认网关(default gateway)"</summary><br><b>
 
 A default gateway serves as an access point or IP router that a networked computer uses to send information to a computer in another network or the internet.
 </b></details>
 
 <details>
-<summary>What is ARP? How does it works?</summary><br><b>
+<summary>什么是ARP？说明一下它的工作原理？</summary><br><b>
 
 ARP stands for Address Resolution Protocol. When you try to ping an IP address on your local network, say 192.168.1.1, your system has to turn the IP address 192.168.1.1 into a MAC address. This involves using ARP to resolve the address, hence its name.
 
@@ -1988,59 +1988,59 @@ Systems keep an ARP look-up table where they store information about what IP add
 </b></details>
 
 <details>
-<summary>What is TTL?</summary><br><b>
+<summary>什么是TTL?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is DHCP? How does it works?</summary><br><b>
+<summary>什么是DHCP? 他是怎么工作的?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is SSL tunneling? How does it works?</summary><br><b>
+<summary>什么是SSL隧道(SSL tunneling)？它是如何工作的？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a socket? Where can you see the list of sockets in your system?</summary><br><b>
+<summary>什么是套接字(socket)？在哪里可以看见你系统中的套接字列表？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is IPv6? Why should we consider using it if we have IPv4?</summary><br><b>
+<summary>什么是IPv6？我们已经有了IPv4，为什么还要考虑使用它？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is VLAN?</summary><br><b>
+<summary>什么是VLAN?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is MTU?</summary><br><b>
+<summary>什么是MTU?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What happens if you send a packet that is bigger than the MTU?</summary><br><b>
+<summary>如果你发送了一个比MTU大的数据包会发生什么?</summary><br><b>
 </b></details>
 
 <details>
-<summary>True or False?. Ping is using UDP because it doesn't care about reliable connection</summary><br><b>
+<summary>Ping依赖于UDP因为它不关心可靠连接，这种说法对还是错？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is SDN?</summary><br><b>
+<summary>什么是SDN?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is ICMP? What is it used for?</summary><br><b>
+<summary>什么是ICMP? 他起什么作用?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is NAT? How does it works?</summary><br><b>
+<summary>什么是NAT? 他起什么作用?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Which factors affect network performances</summary><br><b>
+<summary>哪些情况会影响网络性能？</summary><br><b>
 </b></details>
 
 <details>
-<summary>What the terms "Data Plane" and "Control Plane" refer?</summary><br><b>
+<summary>"数据层(Data Plane)"和"控制层(Control Plane)" 引用了哪些条款？</summary><br><b>
 
 The exact meaning is usually depends on the context but overall data plane refers to all the functions that forward packets and/or frames from one interface to another while control plane refers to all the functions that make use of routing protocols.
 
@@ -2051,55 +2051,55 @@ There is also "Management Plane" which refers to monitoring and management funct
 #### :star: 高级
 
 <details>
-<summary>Explain Spanning Tree Protocol (STP)</summary><br><b>
+<summary>解释STP生成树协议(Spanning Tree Protocol)</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is link aggregation? Why is it used?</summary><br><b>
+<summary>什么是链路聚合(link aggregation)? 他起什么作用?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Asymmetric Routing? How do deal with it?</summary><br><b>
+<summary>什么是非对称路由(Asymmetric Routing)? 如何处理他?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What overlay (tunnel) protocols are you familiar with?</summary><br><b>
+<summary>你熟悉哪些叠加隧道协议(overlay\tunnel protocols)?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is GRE? How does it works?</summary><br><b>
+<summary>什么是GRE? 他起什么作用?</summary><b
 </b></details>
 
 <details>
-<summary>What is VXLAN? How does it works?</summary><br><b>
+<summary>什么是VXLAN? 他起什么作用?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is SNAT?</summary><br><b>
+<summary>什么是SNAT?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain OSPF</summary><br><b>
+<summary>解释一下OSPF</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain Spine & Leaf</summary><br><b>
+<summary>解释一下Spine & Leaf</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Network Congestion? What can cause it?</summary><br><b>
+<summary>什么是网络拥塞(Network Congestion)? 是由什么原因引起的?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What can you tell me about UDP packet format? What about TCP packet format? How is it different?</summary><br><b>
+<summary>你能解释一下UDP数据包的格式吗? TCP包的格式呢? 他们怎么不同了?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is the exponential backoff algorithm? Where is it used?</summary><br><b>
+<summary>什么是指数补偿算法(exponential backoff algorithm)? 在哪些情况下会使用他?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Using Hamming code, what would be the code word for the following data word 100111010001101?</summary><br><b>
+<summary>100111010001101使用海明码会编码成什么数字?</summary><br><b>
 
 00110011110100011101
 </b></details>
